@@ -1,0 +1,44 @@
+section{
+    margin: 2em;
+    border-radius: 1rem;
+    padding: 1em;
+    background-color: #2B3035;
+}
+
+#botao{
+    margin-top: 1em !important;
+}
+
+@media screen and (max-width: 480px){
+
+    .titulo{
+        display: block;
+        position: relative;
+        Left: calc(50% - 52px/2);
+        text-align: center;
+    }
+    
+    section h2{
+        text-align:center;
+    }
+
+    section{
+        text-align:justify;
+    }
+}
+
+#resultado{
+    display:flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: calc(50% - 80vw/2);
+    width: 80vw;
+    padding: 1em;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+i{
+    padding: 0.5rem;
+}
